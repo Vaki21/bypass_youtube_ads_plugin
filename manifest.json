@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "YouTube Ad Bypass",
+  "description": "Extension to bypass YouTube Ads",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
