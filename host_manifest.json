@@ -1,0 +1,9 @@
+{
+    "name": "com.my_company.my_app",
+    "description": "BypassYouTube",
+    "path": "C:\\Program Files\\My App\\chrome_native_messaging_host.exe",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"
+    ]
+}
