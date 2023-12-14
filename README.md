@@ -1,4 +1,4 @@
-# bypass_youtube_ads_plugin
+# youtube-ad-bypasser-plugin
 
 Chrome plugin and background service for bypassing YouTube Ads.
 
