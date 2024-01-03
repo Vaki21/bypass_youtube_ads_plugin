@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bypass3", "Bypass3.csproj", "{24642AD8-428C-46A4-9AA6-78538F3594FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24642AD8-428C-46A4-9AA6-78538F3594FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24642AD8-428C-46A4-9AA6-78538F3594FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24642AD8-428C-46A4-9AA6-78538F3594FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24642AD8-428C-46A4-9AA6-78538F3594FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0306663C-E196-41BD-AC5C-B37989C998F0}
+	EndGlobalSection
+EndGlobal

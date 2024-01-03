@@ -1,0 +1,36 @@
+{
+  "name": "YoutubeBypasser",
+  "description": "Bypass YouTube ads by downloading the videos in the background.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["popup.js",
+      "popup2.js"
+    ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "scripting",
+    "activeTab",
+    "*://*.youtube.com/*"
+  ],
+  "host_permissions": [
+    "http://localhost:1234/*",
+    "*://*.youtube.com/*"
+  ],
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
